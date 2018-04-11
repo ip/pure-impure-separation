@@ -1,0 +1,17 @@
+{
+  "name": "pure-impure-separation",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src",
+    "unit-test": "tape 'src/**/*.test.js'",
+    "test": "yarn unit-test && standard"
+  },
+  "main": "src/index.js",
+  "license": "MIT",
+  "repository": "git@github.com:ip/pure-impure-separation.git",
+  "devDependencies": {
+    "sinon": "^4.5.0",
+    "standard": "^11.0.1",
+    "tape": "^4.9.0"
+  }
+}
