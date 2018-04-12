@@ -39,5 +39,5 @@ const readFileFailing = error => (...args) => {
 const readFileSuccessful = contents => (...args) => {
   const cb = args[args.length - 1]
 
-  cb(null, 'Joe')
+  cb(null, contents)
 }
